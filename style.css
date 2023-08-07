@@ -30,9 +30,13 @@ header {
 }
 
 .time-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   border-radius: 15px;
 }
+
 
 .row {
   white-space: pre-wrap;
@@ -41,7 +45,7 @@ header {
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: #2DE1C2;
   color: #000000;
   border-top: 1px dashed #000000;
 }
@@ -74,6 +78,14 @@ header {
   transition: all 0.3s ease-in-out;
 }
 
+.display-3{
+  font-family: 'Great Vibes', cursive;
+}
+
+#currentDay{
+  color: #17301C
+}
+
 footer {
   margin-top: 5%;
   color: #414066;
@@ -81,3 +93,5 @@ footer {
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
 }
+
+
