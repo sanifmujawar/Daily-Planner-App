@@ -70,3 +70,11 @@ header {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
