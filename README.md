@@ -26,7 +26,7 @@ Effortlessly manage your daily schedule and stay organized! 🗓️
 
 Take a look at the functionality of the Daily Planner App:
 
-![Daily Planner App Demo](./images/05-third-party-apis-homework-demo.gif)
+![Daily Planner App Demo](./images/demo.gif)
 
 ## App Features 🔥
 
