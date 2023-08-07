@@ -1,6 +1,10 @@
-//Variables declaration
+dayjs.extend(window.dayjs_plugin_advancedFormat);
+
+// Variables declaration
 let $currentDayEl = $("#currentDay");
-$currentDayEl.text(moment().format("dddd, MMMM Do"));
+const today = dayjs().format("dddd Do MMMM YYYY");  // Use dayjs() to get the current day
+$currentDayEl.text(today);
+
 let containerEl = $(".container");
 let hoursArray = [9, 10, 11, 12, 13, 14, 15, 16, 17];
 let hoursDisplay = [
@@ -14,9 +18,9 @@ let hoursDisplay = [
   "4PM",
   "5PM",
 ];
-let currentHour = parseInt(moment().format("h"));
+let currentHour = parseInt(dayjs().format("h"));
 
-//Loop to create the html for the business hours
+// Loop to create the HTML for the business hours
 for (let i = 0; i < hoursArray.length; i++) {
     const hour = hoursArray[i];
     const hourDisplay = hoursDisplay[i];
@@ -35,11 +39,11 @@ for (let i = 0; i < hoursArray.length; i++) {
     <button class="col-2 saveBtn" data-hour="${hour}">💾</button>
     </div>`;
     containerEl.append(row);
-  }
+}
 
 // Event listener onClick to save and set the Local Storage item
 $("button").on("click", (event) => {
     let key = $(event.target).attr("data-hour");
     let value = $(event.target).siblings("textarea").val();
     localStorage.setItem(key, value);
-  });  
+});
