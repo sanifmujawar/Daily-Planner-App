@@ -1,5 +1,5 @@
 body {
-  background-image: url("./images/background1.jpg");
+  background-image: url("./images/mymind-gbhSDkV96vg-unsplash.jpg");
   background-size: cover; /* or 'contain', '100% 100%', etc. */
   background-repeat: no-repeat; /* to prevent repeating the image */;
   font-family: 'Open Sans', sans-serif;
@@ -45,7 +45,7 @@ header {
 }
 
 .hour {
-  background-color: #2DE1C2;
+  background-color: #81A2FF;
   color: #000000;
   border-top: 1px dashed #000000;
 }
@@ -57,11 +57,11 @@ header {
 
 .present {
   background-color: #ff6961;
-  color: white;
+  color: black;
 }
 
 .future {
-  background-color: #29bf12;
+  background-color: #FFF2E1;
   color: white;
 }
 
@@ -69,7 +69,7 @@ header {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #EC9D87;
   color: white;
 }
 
