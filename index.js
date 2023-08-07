@@ -19,7 +19,7 @@ let hoursDisplay = [
   "5PM",
 ];
 let currentHour = parseInt(dayjs().format("H"));
-console.log(currentHour);
+// console.log(currentHour);
 
 // Loop to create the HTML for the business hours
 for (let i = 0; i < hoursArray.length; i++) {
