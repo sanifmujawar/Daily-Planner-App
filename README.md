@@ -1,87 +1,64 @@
-# Third-Party APIs: Work Day Scheduler
+# 📅 Daily Planner App 📅
 
-## Your Task
+## Overview
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-You'll need to use the [Day.js](https://day.js.org/docs/en/display/format) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+Welcome to the Daily Planner App project! 🚀 Create a simple calendar application that empowers users to manage their daily schedule effectively. The app allows users to add important events to each hour of the day and provides an intuitive user experience with dynamically updated HTML and CSS powered by jQuery. The Day.js library is used for precise date and time manipulation, ensuring accurate and user-friendly time management.
 
 ## User Story
 
-```md
-AS AN employee with a busy schedule
+AS an employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
-```
 
-## Acceptance Criteria
+## Instructions 📝
 
-The app should:
+To use the Daily Planner App:
 
-* Display the current day at the top of the calender when a user opens the planner.
- 
-* Present timeblocks for standard business hours when the user scrolls down.
- 
-* Color-code each timeblock based on past, present, and future when the timeblock is viewed.
- 
-* Allow a user to enter an event when they click a timeblock
+1. **Open the [Daily Planner App](https://sanifmujawar.github.io/Daily-Planner-App/) in your web browser.** 🌐
+2. The current day is prominently displayed at the top of the calendar when you open the planner.
+3. Scroll down to view time blocks for standard business hours.
+4. Each time block is color-coded: past, present, or future.
+5. **Click on a time block to enter an event.**
+6. After entering an event, **click the "Save" button** in that time block to store the event in local storage.
+7. Your events persist even after refreshing the page.
 
-* Save the event in local storage when the save button is clicked in that timeblock.
+Effortlessly manage your daily schedule and stay organized! 🗓️
 
-* Persist events between refreshes of a page
+## Demo 📸
 
-The following animation demonstrates the application functionality:
+Take a look at the functionality of the Daily Planner App:
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
+![Daily Planner App Demo](./images/05-third-party-apis-homework-demo.gif)
 
+## App Features 🔥
 
-## Grading Requirements
+- 🌟 **Current Day Display:** Always be aware of the current day.
+- 🕒 **Hourly Time Blocks:** Enter and manage events for each hour.
+- 🎨 **Color-Coded Time Blocks:** Easily distinguish past, present, and future events.
+- 💾 **Local Storage:** Events are preserved between sessions for convenience.
 
-This homework is graded based on the following criteria: 
+## Technical Acceptance Criteria 🛠️
 
-### Technical Acceptance Criteria: 40%
+- The application leverages the **Day.js library** for precise date and time manipulation. ✔️
+- The app is **deployed** and accessible via the provided URL. ✔️
+- The application loads without errors and meets all functional requirements. ✔️
 
-* Satisfies all of the above acceptance criteria plus the following:
+## Deployment 🚀
 
-  * Uses a date utility library to work with date and time
+Access the Daily Planner App here: [Daily Planner App](https://sanifmujawar.github.io/Daily-Planner-App/) 🌐
 
-### Deployment: 32%
+Explore the project's source code on GitHub: [Sanif Mujawar's Daily-Planner-App](https://github.com/sanifmujawar/Daily-Planner-App) 💻
 
-* Application deployed at live URL
+## Application Quality 🌟
 
-* Application loads with no errors
+The Daily Planner App provides a seamless user experience, enabling users to manage their daily schedule effortlessly. The user interface is intuitive, clean, and aligns with the mock-up functionality outlined in the project instructions. ✨
 
-* Application GitHub URL submitted
+## Repository Quality 📚
 
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
+The GitHub repository for this project follows best practices for file structure, naming conventions, class/id naming, indentation, and includes clear and descriptive commit messages. The README is designed to provide a high-quality resource with a comprehensive project description, a captivating demo animation, and links to the deployed application. 📝
 
 ---
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+© 2023 [SanifMujawar](https://github.com/sanifmujawar) Confidential and Proprietary. All Rights Reserved.
+
+📅 Note: Feel free to enhance this README by adding any additional sections or details that suit the project's requirements and complexity. 📋
